@@ -1,0 +1,19 @@
+{
+  "name": "GHCE: Opinionated GitHub Chrome Extension",
+  "version": "0.0.0.0",
+  "description": "Opinionated GitHub styles and scripts",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*/*/pull/*"
+      ],
+      "css": [
+        "pull_request.css"
+      ],
+      "js": [
+        "pull_request.js"
+      ]
+    }
+  ],
+  "manifest_version": 3
+}
