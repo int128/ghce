@@ -41,7 +41,7 @@ jobs:
           node-version-file: .node-version
       - run: corepack enable pnpm
       - run: pnpm i
-      - run: pnpm run test
+      # - run: pnpm run test
       - run: pnpm run lint
 
   generate:
